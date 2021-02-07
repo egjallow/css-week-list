@@ -1,0 +1,112 @@
+#container{
+ display: flex;
+ flex-direction: row;
+ padding-top: 50px;
+}
+
+.cen-img{
+    margin-bottom: 20px;
+}
+
+.view {
+    text-align: center;
+    padding-left: 10px;
+    
+}
+
+.view img{
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    padding-bottom: 5px;
+    /* margin: 7px; */
+       
+} 
+p>span{
+    letter-spacing: 4px;
+}
+
+
+.prices-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.prices-info div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.prices section{
+  margin: 20px;  
+}
+
+.market-price{
+    color:  #bbb;
+}
+.market-price p{
+    text-decoration: line-through;
+}
+.delivery{
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    
+}
+
+.delivery p{
+    margin: 25px;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-1{
+    background-color: #bbb;
+}
+
+.circle-2{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.oder-types{
+    display: flex;
+    flex-direction: row;
+}
+
+.oder-types section{
+    margin: 20px;
+}
+
+input[type=number]{
+    width: 50px;
+    height: 40px;
+}
+
+input[type=submit] {
+    width: 175px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid #130522;
+    border-radius: 5px;  
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
